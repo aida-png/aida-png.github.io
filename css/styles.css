@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: gray;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: 1.8em;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+    font-size: 2em;
+    transition: .9s;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 0.8em;
+    color: #2ec4c7;
+}
+
+nav a.active {
+    border-bottom: 2px solid #2ec4c7;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+
+    color: yellow;
+}
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
