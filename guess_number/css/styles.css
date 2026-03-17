@@ -12,9 +12,9 @@ body {
     background: linear-gradient(to bottom, #98bcff, white);
 }
 
-body, input, button, select, textarea {
+/* body, input, button, select, textarea {
     cursor: none !important;
-}
+} */
 
 #cursorGlow {
     position: fixed;
