@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Guess a Number! </title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href = "css/styles.css">
+    </head>
+    <body>
+        <div id = "cursorGlow"> </div>
+        <div id = "splash">
+            <h1 class = "main-title" > Guess the Number! </h1>
+            <h2> Guess a number between 1 and 99 in seven attempts! </h2>
+            <button id = "playButton"> Let's Play!</button>
+        </div>
+
+        <div id = "game" style = "display: none";>
+            <h1 class = "main-title" > Guess the Number! </h1>
+            <div class = "card">
+                <header>
+                    <h2> Guess a number between 1 and 99 in seven attempts! </h2>
+                </header>
+
+                <div id = "main">
+                    <input type = "text" id = "playerGuess" placeholder = "Enter a number">         
+                    <button id = "guessBtn"> Guess </button> <br>
+                    <button id = "resetBtn"> Reset </button> 
+                    <div id = "feedback"> </div>
+                    <div> Previous Guesses: <span id = "guesses"> </span> </div>
+                    <div> Attempts Left: <span id = "attemptsLeft"> 7 </span> </div>
+            </div>
+        </div>
+        <div class = "stats">
+            Wins: <span id = "wins" > 0 </span> |
+            Losses: <span id = "losses" > 0 </span>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"> </script>
+        <script src="js/script.js"> </script>
+    </body>
+</html>
