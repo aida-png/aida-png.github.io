@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to bottom, #cfe8ff, white);
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.quiz-box {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feedback {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result {
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.question {
+    display: none;
+}
+
+.question.active {
+    display: block;
+}
