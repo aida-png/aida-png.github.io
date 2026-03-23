@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up Page </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <div class = "container">
+            <h1> Sign Up </h1>
+            
+            <form id="signupForm" action="welcome.html">
+
+                <label> First Name: </label>
+                <input type="text" name="fName"> <br>
+
+                <label> Last Name: </label>
+                <input type="text" name="lName"> <br>
+
+                <label> Gender: </label>
+                <input type="radio" name="gender" value="m"> Male
+                <input type="radio" name="gender" value="f"> Female <br>
+
+                <label> Zip Code: </label>
+                <input type="text" id="zip" name="zip">
+                <span id="zipError"> </span> <br>
+
+                <label> City: </label>
+                <span id="city"> </span> <br>
+
+                <label> Latitude: </label>
+                <span id="latitude"> </span> <br>
+
+                <label> Longitude: </label>
+                <span id="longitude"> </span> <br>
+
+                <label> State: </label>
+                <select id="state" name="state">
+                    <option value="">Select One</option>
+                </select> <br>
+
+                <label> Select a County:</label>
+                <select id="county" name="county">
+                    <option>Select County</option>
+                </select> <br>
+
+                <label>Desired Username:</label>
+                <input type="text" id="username" name="username">
+                <span id="usernameError"></span> <br>
+
+                <label>Password:</label>
+                <input type="password" id="password" name="password">
+                <span id="suggestedPwd"></span> <br>
+
+                <label>Retype Password</label>
+                <input type="password" id="password2" name="password2"> <br>
+                <span id="passwordError"></span>
+
+                <input type="submit" value="Sign Up!">
+            </form>
+        </div>
+
+    <script src="js/script.js"></script>
+    </body>
+</html>
