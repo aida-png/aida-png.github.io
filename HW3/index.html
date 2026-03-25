@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Earthquake Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Earthquake Tracker</h1>
+
+    <label>Start Date: <input type="date" id="start"></label>
+    <label>End Date: <input type="date" id="end"></label>
+    <label>Minimum Magnitude: <input type="number" id="mag" value="4.5" min="0" max="10" step="0.1"></label>
+
+    <button onclick="search()">Search</button>
+
+    <p id="error"></p>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
